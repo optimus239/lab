@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language="Javascript">
+        function compute(frm){
+            var x = frm. expr. value;
+            result. innerHTML = x*x;
+        }
+    </script>
+    <form name = "frm">
+        x=<input type = "text" name="expr" size="15">
+        <br><br>
+        <input type = "button" value="Caculate"
+            onclick="compute(this.form)">
+            <br>
+            x*x=<span id = "result"></span>
+    </form>
+</body>
+</html>
