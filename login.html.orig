@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<<<<<<< HEAD
+    <h1>Đăng nhập vào trang web</h1>
+=======
+    <h1>Đăng nhập và cần xác thực</h1>
+>>>>>>> newlab
+    <form action="login.php" method="POST">
+        Tên người dùng : <input type="text" name="username" size="25"/><br/>
+        Mật khẩu       : <input type="password" name="password" size="25"/><br/>
+        <input type="submit" name="login" value="submit">
+    </form>
+    
+</body>
+</html>
